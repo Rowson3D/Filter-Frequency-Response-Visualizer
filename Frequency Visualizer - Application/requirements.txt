@@ -1,0 +1,8 @@
+dearpygui
+pyserial
+pyscreenshot
+pygetwindow
+Pillow
+pandas
+numpy
+tk
