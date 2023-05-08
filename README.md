@@ -16,7 +16,7 @@ Git is both local version control (local) and also cloud version control (remote
 
 __Create Git Repo Folder__
 <br>
-Purely for containment sakes, you may want to create a folder for holding all your GitHub repos. This is optional. If you already have a folder, then you have no need to create a new folder. I (Trent) would suggest creating a folder titled "GitHub-Repos" in your Documents folder on your computer. You can create that folder using the following CLI commands. (To open the terminal, type "Command Prompt" in the search function on your windows machine, then click on the application)
+Purely for containment sakes, you may want to create a folder for holding all your GitHub repos. This is optional. If you already have a folder, then you have no need to create a new folder. The suggestion for creating a folder titled "GitHub-Repos" in your Documents folder on your computer. You can create that folder using the following CLI commands. (To open the terminal, type "Command Prompt" in the search function on your windows machine, then click on the application)
 ```
 cd Documents
 mkdir GitHub-Repos
@@ -26,7 +26,7 @@ __Add the repository__
 <br>
 Go to the desired directory (if you followed the steps in "Create Git Repo Folder", you will already be in the desired folder) and clone the repository. The comand will look like the following
 ```
-git clone https://github.com/Trent3211/filter-freq-response-vis.git <Optional: What you'd like the document to be named>
+git clone https://github.com/Rowson3D/Filter-Frequency-Response-Visualizer.git <Optional: What you'd like the document to be named>
 ```
 Sections wrapped by \< \> will want to be replaced by what is referred to in the section. You should be able to now see a folder with the title you provided in the `<Optional: ...>` section, or it will be titled filter-freq-reponse-vis. You can view this in your file explorer, or by using the `dir` command in the Terminal (Command Prompt). To verify that the repository was properly imported, open the folder using the Windows File explorer. Check the folder for the README.md file. Its contents should match this file. 
 
